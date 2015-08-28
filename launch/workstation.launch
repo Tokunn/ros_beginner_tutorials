@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <env name="ROS_IP" value="172.16.14.114" />
+    <env name="ROS_MASTER_URI" value="http://172.16.14.224:11311" />
+    <node pkg="rqt_console" name="rqt_console" type="rqt_console" />
+    <node pkg="rqt_graph" name="rqt_graph" type="rqt_graph" />
+</launch>

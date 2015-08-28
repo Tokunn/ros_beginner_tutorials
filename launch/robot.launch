@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    <env name="ROS_IP" value="172.16.14.224" />
+    <node pkg="beginner_tutorials" name="listener" type="listener.py" />
+    <node pkg="beginner_tutorials" name="talker" type="talker.py" />
+</launch>
